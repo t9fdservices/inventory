@@ -1,5 +1,5 @@
 # [Project Inventory](https:t9fd.com) by [T9FD Services](https:t9fd.com)
-[![CDNJS](https://img.shields.io/cdnjs/v/startbootstrap-sb-admin-2.svg)](https://cdnjs.com/libraries/startbootstrap-sb-admin-2)
+v1.0.0
 
 [Project Inventory](https:t9fd.com) is an open source, inventory management software using [Bootstrap](http://getbootstrap.com/) created by [T9FD Services](https:t9fd.com).
 
