@@ -20,6 +20,10 @@ Project Inventory is created and maintained by **[Landon Teranski](https://t9fd.
 * https://twitter.com/t9fdinc
 * https://github.com/t9fdservices
 
+## Setup Instructions
+
+Instructions coming soon. One the open source software is built and installation and setup are established.
+
 ## Copyright
 
 Copyright 2018 T9FD Services.
