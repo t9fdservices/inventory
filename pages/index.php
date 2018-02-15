@@ -1,4 +1,4 @@
-<?php
+    <?php
 
     // First we execute our common code to connection to the database and start the session 
     require("require/config.php"); 
@@ -20,12 +20,11 @@
     // a username is user submitted content we must use htmlentities on it before displaying it to the user. 
 ?> 
 
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-
+    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -55,7 +54,8 @@
     
     <!-- Required documents -->
     
-<?php require('require/config.php'); ?>
+<?php require('require/config.php'); ?> 
+
 
     
     
@@ -75,12 +75,15 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">Project Inventory</a>
+                <a class="navbar-brand" href="index.php">Dashboard</a>
             </div>
             <!-- /.navbar-header -->
 
            <ul class="nav navbar-top-links navbar-right">
-
+<!-- Welcome -->
+        <span>
+        Welcome,
+        <?php echo htmlentities($_SESSION['user']['username'], ENT_QUOTES, 'UTF-8'); ?> </span>
                 <!-- /.dropdown -->
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
