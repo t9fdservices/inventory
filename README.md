@@ -1,5 +1,5 @@
 # [Project Inventory](https:t9fd.com/) by [T9FD Services](https:t9fd.com/)
-#### _Version 1.0_
+v1.0.0
 
 [Project Inventory](https:t9fd.com/) is an open source, inventory management software using [Bootstrap](http://getbootstrap.com/) created by [T9FD Services](https:t9fd.com/).
 
@@ -10,7 +10,9 @@ Please Note this is currently under Development and is not ready to go live. Dow
 If you would like to help develop on this platfrom contact T9FD Services via the following information.
 
 Web: https://t9fd.com
+<br>
 Email: info@t9fd.com
+<br>
 Phone 1-844-321-8933
 
 ## Creator
@@ -19,10 +21,6 @@ Project Inventory is created and maintained by **[Landon Teranski](https://t9fd.
 
 * https://twitter.com/t9fdinc
 * https://github.com/t9fdservices
-
-## Setup Instructions
-
-Instructions coming soon. One the open source software is built and installation and setup are established.
 
 ## Copyright
 
