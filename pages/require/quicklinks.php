@@ -1,16 +1,7 @@
 <?php
 
     $query = " 
-        SELECT
-            id,
-			name,
-            buttontitle,
-            buttonlink,
-            icon,
-            class
-            
-        FROM quicklinks
-    "; 
+        SELECT id, name, buttontitle, buttonlink, icon, class, count FROM quicklinks"; 
      
     try 
     { 
@@ -31,7 +22,6 @@
 
 ?>
 <?php foreach($rows as $row): ?>
-        
 	
 <div class="col-lg-3 col-md-6">
                     <div class="<?php echo htmlentities($row['class'], ENT_QUOTES, 'UTF-8'); ?>">
@@ -41,7 +31,10 @@
                                     <i class="<?php echo htmlentities($row['icon'], ENT_QUOTES, 'UTF-8'); ?>"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge"><?php echo htmlentities($row['id'], ENT_QUOTES, 'UTF-8'); ?></div>
+                                    
+                                    <div class="huge"><?php echo htmlentities($row['count'], ENT_QUOTES, 'UTF-8'); ?></div>
+                                    
+                                    
                                     <div><?php echo htmlentities($row['name'], ENT_QUOTES, 'UTF-8'); ?></div>
                                 </div>
                             </div>
@@ -54,5 +47,6 @@
                             </div>
                         </a>
                     </div>    
-</div>        
+</div>
+
 <?php endforeach; ?>

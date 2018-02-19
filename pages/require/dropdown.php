@@ -1,6 +1,7 @@
            <ul class="nav navbar-top-links navbar-right">
 <!-- Welcome -->
         <span>
+            
         Welcome,
         <?php echo htmlentities($_SESSION['user']['username'], ENT_QUOTES, 'UTF-8'); ?> </span>
                 <!-- /.dropdown -->

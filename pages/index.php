@@ -67,6 +67,7 @@
 
             <?php require("require/dropdown.php"); ?>
             
+            
 <!-- End Navbar Dropdown -->
 
 <!-- Sidebar -->
@@ -98,7 +99,7 @@
 <?php require("require/quicklinks.php"); ?>
 <?php require("require/instocktable.php"); ?>
 <?php require("require/outofstocktable.php"); ?>
-                    
+
                 </div>
                 <!-- /.row -->
             </div>
