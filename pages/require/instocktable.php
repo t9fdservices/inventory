@@ -50,9 +50,9 @@
                                             <td><?php echo htmlentities($row['itemnumber'], ENT_QUOTES, 'UTF-8'); ?></td>
                                             <td><?php echo htmlentities($row['itemstockcount'], ENT_QUOTES, 'UTF-8'); ?></td>
                                             <td><?php echo htmlentities($row['itemlocation'], ENT_QUOTES, 'UTF-8'); ?></td>
-                                            <td><a href="#"><button id="" type="button" class="btn btn-success btn-circle"><i class="fa fa-check"></i></button></a>
+                                            <td><a href="sellstock.php"><button id="" type="button" class="btn btn-success btn-circle"><i class="fa fa-check"></i></button></a>
                                           
-                                            <a href="#"><button id="" type="button" class="btn btn-danger btn-circle"><i class="fa fa-trash"></i>  </button></a></td>
+                                            <button href="deletestock.php?id=<? echo $rows['id']; ?>" id="" type="button" class="btn btn-danger btn-circle"><i class="fa fa-trash"></i>  </button></td>
                                             
                                         </tr>
 <?php endforeach; ?>

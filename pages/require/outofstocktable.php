@@ -53,13 +53,11 @@
                                            <td><?php echo htmlentities($row['itemnumber'], ENT_QUOTES, 'UTF-8'); ?></td>
                                            <td><?php echo htmlentities($row['itemstockcount'], ENT_QUOTES, 'UTF-8'); ?></td>
                                            <td><?php echo htmlentities($row['itemlocation'], ENT_QUOTES, 'UTF-8'); ?></td>
-                                           <td><a href="#" ><button id="" type="button" class="btn btn-success btn-circle"><i class="fa fa-server"></i></button></a>
+                                           <td><button data-toggle="modal" data-target="#addstock" id="" type="button" class="btn btn-success btn-circle"><i class="fa fa-server"></i></button>
                                           
-                                           <a href="#" ><button id="" type="button" class="btn btn-danger btn-circle"><i class="fa fa-trash"></i></button></a></td>
-                                           
-
-                       </tr>
-                        <?php endforeach; ?>
+                                           <a href="deletestock.php" ><button id="" type="button" class="btn btn-danger btn-circle"><i class="fa fa-trash"></i></button></a></td>
+                                        </tr>
+<?php endforeach; ?>
                    </tbody>
                </table>
            </div>

@@ -73,7 +73,6 @@
 
             <?php require("require/dropdown.php"); ?>
             
-            
 <!-- End Navbar Dropdown -->
 
 <!-- Sidebar -->
@@ -94,25 +93,24 @@
 <!-- ---------------------------------------------------------------------------------- -->
         
 <!-- Page Content -->
-<div id="page-wrapper">
+        <div id="page-wrapper">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="page-header">Dashboard</h1>
+                        <h1 class="page-header">Inventory</h1>
                     </div>
                     <!-- /.col-lg-12 -->
-
-<?php require("require/quicklinks.php"); ?>
-<?php require("require/instocktable.php"); ?>
-<?php require("require/outofstocktable.php"); ?>
-
+                    
+                    
+                    <?php require("require/inventory.php"); ?>
+                    
+                    
                 </div>
                 <!-- /.row -->
             </div>
             <!-- /.container-fluid -->
-</div>        
-        
-
+        </div>
+        <!-- /#page-wrapper -->
 <!-- End Page Content -->
 <!-- ---------------------------------------------------------------------------------- -->
     
@@ -139,7 +137,7 @@
     <!-- Page-Level Demo Scripts - Tables - Use for reference -->
     <script>
     $(document).ready(function() {
-        $('#dataTables-example').DataTable({
+        $('#inventory').DataTable({
             responsive: true
         });
     });
