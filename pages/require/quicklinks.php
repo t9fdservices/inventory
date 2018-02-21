@@ -1,7 +1,6 @@
 <?php
 
-    $query = " 
-        SELECT id, name, buttontitle, buttonlink, icon, class, count FROM quicklinks"; 
+    $query = "SELECT id, name, buttontitle, buttonlink, icon, class, count FROM quicklinks"; 
      
     try 
     { 
