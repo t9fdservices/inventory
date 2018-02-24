@@ -10,7 +10,7 @@
                         show_404();
                 }
 
-                $data['title'] = strtoupper($page); // Capitalize the first letter
+                $data['title'] = ucfirst($page); // Capitalize the first letter
 
                 $this->load->view('templates/default/header', $data);
                 $this->load->view('pages/'.$page, $data);

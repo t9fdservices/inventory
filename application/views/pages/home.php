@@ -1,3 +1,3 @@
-<center> This is home </center>
+This is home
 <br>
 <br>
