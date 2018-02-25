@@ -1,21 +1,31 @@
-</div>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation" style="">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+                        <!-- /.panel-footer -->
+                    </div>
+                    <!-- /.panel .chat-panel -->
+                </div>
+                <!-- /.col-lg-4 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /#page-wrapper -->
 
-  <div class="collapse navbar-collapse" id="navbarColor03">
-    <ul class="navbar-nav mr-auto">
-<em>Copyright © <script>document.write(new Date().getFullYear())</script> T9FD Services |  Developed By: <a href="https://t9fd.com" target="_blank"> T9FD Services </a> | All Rights Reserved</em>
-    </ul>
-      <button type="button" class="btn btn-link">Secondary</button>
-      <button type="button" class="btn btn-link">Secondary</button>
-      <button type="button" class="btn btn-link">Secondary</button>
-      <button type="button" class="btn btn-link">Secondary</button>
-  </div>
-</nav>
+    </div>
+<!-- jQuery -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
 
-        </body>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../vendor/metisMenu/metisMenu.min.js"></script>
+
+    <!-- Morris Charts JavaScript -->
+    <script src="../vendor/raphael/raphael.min.js"></script>
+    <script src="../vendor/morrisjs/morris.min.js"></script>
+    <script src="../data/morris-data.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+
+    </body>
 </html>
